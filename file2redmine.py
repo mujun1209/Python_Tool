@@ -10,7 +10,7 @@ REDMINE_HOST =  "http://192.168.1.41:3000/"
 #登陆redmine的用户名
 USER_NAME = "muj"
 #登陆密码
-USER_PWD = "asdfjkl;"
+USER_PWD = "123456"
 #对应项目在redmine 中的自定义名称
 PROJECT_KEY = "ms-tg-it-yf-mhsq-csy"
 #要上传的csv文件的路径
