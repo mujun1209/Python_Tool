@@ -163,7 +163,7 @@ def next_monday(format=None):
 		format = "%Y-%m-%d"
 	return day.strftime(format)
 
-def mian():
+def run_mm2csv():
 	init_config() #初始化配置文件
 	if not cfg :
 		print "config init error! over the program"
@@ -177,7 +177,7 @@ def mian():
 	mm2csv(in_dir,out_dir)
 	
 if __name__=="__main__":
-	mian()
+	run_mm2csv()
 	
 	
 	

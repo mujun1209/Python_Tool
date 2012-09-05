@@ -258,7 +258,7 @@ def find_project_key(chname,pro_map):
 			# print "find:"+pro_name
 			# return pro_map[pro_name]
 		
-def main():
+def run_file2redmine():
 	"""
 	执行默认的文件导入功能
 	"""
@@ -297,6 +297,6 @@ def get_out_dir(cfg):
 	return (out_dir and out_dir) or os.getcwd()
 			
 if __name__=="__main__":
-	main()
+	run_file2redmine()
 	
 	
